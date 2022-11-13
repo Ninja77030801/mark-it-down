@@ -36,7 +36,6 @@ function App() {
           <Navbar.Divider />
           <Button icon="download" text="Save Progress" onClick={saveProgress} className="bp4-minimal" />
           <Button icon="download" onClick={saveFile} text="Save file" className="bp4-minimal" />
-          <Button icon="export" text="Export as HTML" className="bp4-minimal" />
           <Button icon="upload" text="Load Progress" onClick={loadProgress} className="bp4-minimal" />
         </Navbar.Group>
       </Navbar>
